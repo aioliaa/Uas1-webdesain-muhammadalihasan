@@ -1,0 +1,176 @@
+ body {
+    margin: 0;
+    background: white;
+    font-family: Verdana;
+    background-size: 100%;
+}
+
+nav {
+    position: relative;
+    width: 80%;
+    height: 600px;
+    background: purple;
+    background-size: cover;
+    background-image: url("gambar 1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    margin-left: 130px;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:hover {
+    transition: 0.3s;
+}
+
+
+
+
+/* Bagian Title */
+
+.title {
+    padding-left: 20px;
+    display: inline-block;
+    line-height: 50px;
+    color: purple;
+    float: left;
+
+}
+.title b{
+    color: white;
+}
+
+.title a:hover {
+    color: magenta;
+}
+
+
+/* Bagian Menu Box */
+
+.tblmenubox {
+    display: inline-block;
+    float: right;
+    line-height: 50px;
+}
+
+.tblmenu {
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-image: url(nav-icon.png);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tblmenubox {
+    display: inline-block;
+    visibility: hidden;
+}
+
+
+/* Bagian Menu Navigasi */
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: magenta;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu {
+    display: inline;
+    position: relative;
+    float: right;
+
+
+}
+
+/*.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;*/
+}
+
+.menu ul li {
+    display:block;
+}
+
+.menu ul li a {
+    padding: 0 20px;
+    display: block;
+    line-height: 50px;
+}
+
+.menu li:hover {
+    background-color: pink;
+   }
+.menu ul:hover ul{
+    display: block;
+     color: white;
+
+
+}
+.menu ul li ul{
+    display: none;
+    position: relative;
+    top:5px;
+}
+.menu ul li ul li{
+    width: 100%;
+    background-color:lightblue;
+}
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+#hunian {
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+
+}
+#hunian h2{
+    color: magenta;
+
+}
+.gambar{
+    width: 80%
+    height:600px;
+    background-color: white; 
+    margin-left: 130px;
+}
+.gambar img{
+    float: left;
+    width: 400px;
+    height: auto;
+ padding: 125px 0px 80px 40px;
+}
+.gambar h3{
+    width: 50%;
+    height: auto;
+    color: purple;
+ }
+
+.bersih{
+    clear: both;
+}
